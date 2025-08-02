@@ -1,10 +1,7 @@
-import React, { useState, type ReactElement } from "react";
+import  { useState, type ReactElement } from "react";
 import ProductsContext from "./ProductsContext";
 
-// ❌ Remove this line — it causes conflict
-// import type { UseProductsContextType, producttype } from "./ProductsProvider"
 
-// ✅ Declare producttype and UseProductsContextType here:
 export type producttype = {
   sku: string;
   name: string;
